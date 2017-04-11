@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <script language="JavaScript">
+    var iCallID;
+    function InitializeService(){
+     service.useService(http//localhost:8080/Shanmukhawebservice/Shanmukhawebservie?WSDL,"Shanmukhawebservie");
+     service.HelloWorldService.callService("HelloWorld");
+    }
+    function ShowResult(){
+     alert(event.result.value);
+    }
+   </script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+        <input type="number" id="num1" name="num1"  />
+        <input type="number" id="num2" name="num2" />
+        <input type="submit" value="Result" name="result" onclick="InitializeService()"/>
+     
+    </body>
+</html>
